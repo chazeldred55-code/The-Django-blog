@@ -1,3 +1,6 @@
-from django.shortcuts import render
+def index(request):
 
-# Create your views here.
+    if request.method == "POST":
+        return HttpResponse("You must have POSTed something")
+    else:
+        return HttpResponse(request.method)
