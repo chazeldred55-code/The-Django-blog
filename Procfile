@@ -1,1 +1,1 @@
-web: gunicorn the_django_blog.settings.wsgi
+web: gunicorn thedjangoblog.settings.wsgi
