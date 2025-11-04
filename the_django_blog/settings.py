@@ -50,7 +50,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'blogproject.wsgi.application'
+WSGI_APPLICATION = 'the_django_blog.wsgi.application'
 
 # Database
 DATABASES = {
